@@ -16,7 +16,7 @@ public class ex03 {
     }
 
     public static void main(String[] args){
-        Main T = new Main();
+        ex03 T = new ex03();
         Scanner kb = new Scanner(System.in);
         String str=kb.nextLine();
         System.out.print(T.solution(str));
