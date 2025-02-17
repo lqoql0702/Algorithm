@@ -8,15 +8,15 @@ public class ex16 {
         arr[0] = 1;
         arr[1] = 1;
         int i = 2;
-        System.out.print(1);
-        System.out.print(" ");
-        System.out.print(1);
 
         while(i != n){
             arr[i] = arr[i-2] + arr[i-1];
-            System.out.print(" ");
-            System.out.print(arr[i]);
             i++;
+        }
+
+        for(int a: arr){
+            System.out.print(a);
+            System.out.print(" ");
         }
     }
 
